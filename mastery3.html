@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        h1,h2,h3,h4,ul,li,p{
+            margin:0;
+            padding:0;
+        }
+        img{
+            max-width: 100%;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color:#333;
+        }
+        header{
+             padding:50px;
+            background-color:black;
+             color:white;
+             text-align: center;
+             margin-bottom: 20px;
+        }
+        main{
+            max-width: 800px;
+            display:flex;
+            padding:20px;
+            margin:auto;
+            justify-content: space-between;
+        }
+        main form{
+            width: 40%;
+        }
+        main article{
+            width:45%;
+        }
+        h1,h2,h3,h4,p{
+            margin-bottom:1em;
+        }
+        #title{
+            text-align: center;
+        }
+        label{
+            display: block;
+            margin-bottom: 1em;
+        }
+        input,textarea,#destination_details_form button{
+            display: block;
+            width:100%;
+            margin-bottom: 1em;
+            border:1px solid #666;
+            padding:10px;
+            box-sizing: border-box;
+        }
+        .card{
+            padding:20px;
+            background-color: #efefef;
+            margin-bottom: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+ <h1> vacation destinations wishlist</h1>
+ <p>found exciting places to visit on your next vacation? use the form below to add them to your wishlist </p>
+ </header>
+ <main>
+    <form id="destinationDetailsForm">
+ <label for="name">destinations</label>
+  <input type="text" id="name" placeholder="enter your destination" required><br>
+  <label for="location">location</label>
+  <input type="text" id="location" placeholder="enter your location" required><br>
+  <label for="photo">Photo</label>
+  <input type="url" id="photo" placeholder="provide a url for photo"><br>
+  <label for="description">description</label>
+  <textarea id="description" placeholder="enter your description"></textarea> <br>
+ 
+ 
+ 
+ <button type="submit">Add to list</button>
+</form>
+<article>
+    <h2 id="title">enter destination details</h2>
+    <div id="destinationContainer">
+
+
+           <!-- <div class="card">
+            <img src="https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg" height="300px" width="300px">
+            <div class="card-body">
+                <h3>destination name</h3>
+                <h4>destination location</h4>
+            <p class="card-text">destination description</p>
+            <button>remove</button>
+            </div>
+           </div> -->
+    </div>
+
+</article>
+
+ </main>
+ <script src="mastery3.js"></script>
+
+</body>
+</html>
