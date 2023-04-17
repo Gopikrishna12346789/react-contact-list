@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.heading{
+font-family: 'roboto';
+font-size: 40px;
+color:blue;
+}
+.button{
+font-size: 16px;
+font-weight: 400;
+font-family: 'roboto';
+color:white;
+padding:8px 15px;
+margin: 8px;
+background-color: #7c69e9;
+}
+.count{
+font-size: 80px;
+font-family: 'roboto';
+color:#2e3e4e;
+margin-top: 8px;
+margin-bottom:20px;
+}
