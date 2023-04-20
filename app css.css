@@ -1,0 +1,14 @@
+.projectUl{
+    padding:0;
+    margin:0;
+    list-style:none;
+    border:0;
+    float: left;
+  }
+.tabUl{
+    padding:0;
+    margin-left: 400px;
+    list-style:none;
+    border:0;
+    
+}
